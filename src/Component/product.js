@@ -73,7 +73,7 @@ function Product() {
                                 <p className="card-text display-5 fw-bolder">$  {product.price}</p>
                                 <p className="card-text">{product.description}</p>
                                 <button type="button" className="btn btn-outline-secondary" onClick={() => {dispatch(productCart.actions.addCart(product))}}>Add to Cart</button>
-                                <Link to="/cart" className="btn  btn-dark ms-3 " tabIndex="-1" role="button" aria-disabled="true">Go to Cart</Link>
+                                <Link to="/ecommerce/cart" className="btn  btn-dark ms-3 " tabIndex="-1" role="button" aria-disabled="true">Go to Cart</Link>
                             </div>
                         </div>
                     </div>

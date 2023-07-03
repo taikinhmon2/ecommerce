@@ -19,10 +19,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element = {<Home/>} />
-        <Route path='/products' element = {<Products/>} />
-        <Route path='/products/:id' element = {<Product/>}/>
-        <Route path='/cart' element = {<Cart/>}/>
+        <Route path='/ecommerce' element = {<Home/>} />
+        <Route path='/ecommerce/products' element = {<Products/>} />
+        <Route path='/ecommerce/products/:id' element = {<Product/>}/>
+        <Route path='/ecommerce/cart' element = {<Cart/>}/>
       </Routes>
     </>
   );
